@@ -2,7 +2,7 @@ export interface PurchaseOrder {
   code: string;
   type: string;
   vendor: string;
-  reference_document: string;
+  rd: string;
   state: string;
-  business_unit: string;
+  bu: string;
 }

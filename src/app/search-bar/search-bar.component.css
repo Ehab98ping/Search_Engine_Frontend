@@ -15,17 +15,26 @@ body{
   align-items: center;
   box-shadow: 0 10px 25px rgba(0,0,0,0.3);
 }
-.box input{
 
+.box input{
   outline: none;
   border: none;
   font-weight: 500;
   transition: 0.8s;
   background: transparent;
 }
+
 #icon {
   margin: auto;
   padding-top :2px;
   padding-left: 2px;
   color: black;
+}
+
+button{
+  border-width:0px;
+}
+
+button:hover{
+  cursor:pointer;
 }
