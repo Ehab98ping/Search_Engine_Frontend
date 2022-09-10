@@ -1,6 +1,6 @@
 <form class ="box"  #f = 'ngForm'  (ngSubmit)="submit(f)">
   <input name="search" type="text" placeholder="Search..." ngModel required>
   <a href="#">
-    <button  type="submit" [disabled] = "!f.valid" ><mat-icon  id="icon">search</mat-icon></button>
+    <button class="search_bottun" type="submit" [disabled] = "!f.valid" ><mat-icon  id="icon">search</mat-icon></button>
   </a>
 </form>
